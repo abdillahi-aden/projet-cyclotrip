@@ -1,0 +1,8 @@
+env/
+.env
+data/
+archive/
+archive_2/
+carte/
+communes/
+progress.log
