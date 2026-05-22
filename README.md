@@ -59,7 +59,7 @@ L’application permet :
 # 🚴 CycloTrip - Plateforme d’itinéraires cyclables intelligents
 
 🌍 **Application en ligne** :  
-👉 https://ton-app.streamlit.app
+👉 https://cyclotrip-france.streamlit.app/
 
 📂 **Repository GitHub** :  
 👉 https://github.com/abdillahi-aden/projet-cyclotrip
