@@ -64,7 +64,7 @@ L’application permet :
 📂 **Repository GitHub** :  
 👉 https://github.com/abdillahi-aden/projet-cyclotrip
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ton-app.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cyclotrip-france.streamlit.app/)
 
 ---
 
