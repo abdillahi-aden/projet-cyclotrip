@@ -1,3 +1,7 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 import psycopg2
 import csv
 import time  # Importez le module time
@@ -7,7 +11,14 @@ def insert_from_csv(file_path):
 
     conn = None
     try:
-        conn = psycopg2.connect("dbname=tourisme_cyclo user=postgres password=Dawo2016@")
+        
+        conn = psycopg2.connect(
+            dbname=os.getenv("DB_NAME"),
+            user=os.getenv("DB_USER"),
+            password=os.getenv("DB_PASSWORD"),
+            host=os.getenv("DB_HOST"),
+            port=os.getenv("DB_PORT")
+        )
         cur = conn.cursor()
 
         with open(file_path, newline='', encoding='utf-8') as csvfile:

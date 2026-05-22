@@ -1,3 +1,7 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 import psycopg2
 import csv
 import time
@@ -8,7 +12,13 @@ def insert_from_csv(file_path, log_path='progress.log'):
     conn = None
     try:
         # Connexion à la base de données PostgreSQL
-        conn = psycopg2.connect("dbname=tourisme_cyclo user=postgres password=Dawo2016@")
+        conn = psycopg2.connect(
+            dbname=os.getenv("DB_NAME"),
+            user=os.getenv("DB_USER"),
+            password=os.getenv("DB_PASSWORD"),
+            host=os.getenv("DB_HOST"),
+            port=os.getenv("DB_PORT")
+        )
         cur = conn.cursor()
         batch_size = 10000  # Taille des lots pour l'insertion des données
         last_line_processed = 0
