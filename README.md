@@ -1,5 +1,17 @@
 # 🚴 CycloTrip - Plateforme d’itinéraires cyclables intelligents
 
+🌍 **Application en ligne** :  
+👉 https://cyclotrip-france.streamlit.app/
+
+📂 **Repository GitHub** :  
+👉 https://github.com/abdillahi-aden/projet-cyclotrip
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cyclotrip-france.streamlit.app/)
+
+---
+
+# 🚴 CycloTrip - Plateforme d’itinéraires cyclables intelligents
+
 ## 📌 Contexte du projet
 
 Projet réalisé dans le cadre de la formation Data Engineer de DataScientest.
@@ -54,17 +66,6 @@ L’application permet :
 
 - GitHub
 - Streamlit Community Cloud
-
----
-# 🚴 CycloTrip - Plateforme d’itinéraires cyclables intelligents
-
-🌍 **Application en ligne** :  
-👉 https://cyclotrip-france.streamlit.app/
-
-📂 **Repository GitHub** :  
-👉 https://github.com/abdillahi-aden/projet-cyclotrip
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cyclotrip-france.streamlit.app/)
 
 ---
 
