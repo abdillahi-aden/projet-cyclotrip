@@ -18,7 +18,6 @@ def insert_from_csv(file_path, log_path='progress.log'):
             password=os.getenv("DB_PASSWORD"),
             host=os.getenv("DB_HOST"),
             port=os.getenv("DB_PORT")
-            sslmode="require"
         )
         cur = conn.cursor()
         batch_size = 10000  # Taille des lots pour l'insertion des données
