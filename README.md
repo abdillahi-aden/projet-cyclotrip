@@ -64,6 +64,7 @@ Les adresses sont importées dans PostgreSQL/PostGIS, normalisées puis indexée
 Créer un fichier `.env` local ou configurer les secrets Streamlit avec les variables suivantes :
 
 ```env
+DATABASE_URL=
 DB_NAME=
 DB_USER=
 DB_PASSWORD=
@@ -73,6 +74,8 @@ DB_SSLMODE=require
 ORS_API_KEY=
 WEATHER_API_KEY=
 ```
+
+`DATABASE_URL` est recommandé avec le pooler Supabase. Si `DATABASE_URL` est renseigné, les variables `DB_NAME`, `DB_USER`, `DB_PASSWORD`, `DB_HOST` et `DB_PORT` ne sont pas nécessaires.
 
 Ne versionnez jamais `.env` dans Git.
 

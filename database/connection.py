@@ -14,7 +14,15 @@ class DatabaseConnectionError(Exception):
 
 @st.cache_resource(show_spinner=False)
 def connect_db():
+    database_url = os.getenv("DATABASE_URL")
     try:
+        if database_url:
+            return psycopg2.connect(
+                database_url,
+                sslmode=os.getenv("DB_SSLMODE", "require"),
+                connect_timeout=10,
+            )
+
         return psycopg2.connect(
             dbname=os.getenv("DB_NAME"),
             user=os.getenv("DB_USER"),
