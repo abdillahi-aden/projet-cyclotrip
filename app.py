@@ -202,9 +202,9 @@ def search_page():
     st.write("Choisissez un départ et une arrivée, puis ajustez la distance quotidienne souhaitée.")
 
     examples = [
-        ("Lyon Part-Dieu", "Parc de la Tête d'Or"),
-        ("Saint-Étienne Châteaucreux", "Musée d'Art Moderne Saint-Étienne"),
-        ("Villeurbanne Gratte-Ciel", "Lyon Bellecour"),
+        ("Lyon Part-Dieu", "Lyon"),
+        ("Saint-Étienne", "Lyon"),
+        ("Villeurbanne", "Lyon"),
     ]
     example_cols = st.columns(3)
     for col, (start_text, end_text) in zip(example_cols, examples):
