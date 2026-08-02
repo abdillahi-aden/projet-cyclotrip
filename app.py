@@ -363,11 +363,16 @@ PostgreSQL / PostGIS
     st.markdown("- [LinkedIn Abdillahi Aden](https://www.linkedin.com/)")
 
 
-inject_style()
-page = sidebar()
-if page == "Accueil":
-    home_page()
-elif page == "Recherche d'itinéraire":
-    search_page()
-else:
-    about_page()
+def main():
+    inject_style()
+    page = sidebar()
+    if page == "Accueil":
+        home_page()
+    elif page == "Recherche d'itinéraire":
+        search_page()
+    else:
+        about_page()
+
+
+if __name__ == "__main__":
+    main()

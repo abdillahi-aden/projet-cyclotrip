@@ -1,1 +1,4 @@
-import app  # noqa: F401
+from app import main
+
+
+main()
