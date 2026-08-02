@@ -117,7 +117,7 @@ def home_page():
             "PostGIS, des API d'itinéraires et des données contextuelles pour préparer "
             "des parcours cyclables exploitables."
         )
-        st.write("Application réalisée en langage Python par Abdillahi Aden et Karim Douar.")
+        st.write("Application réalisée en langage Python par Abdillahi Aden.")
     with right:
         st.image("logo_app.png", width=260)
 
@@ -352,9 +352,10 @@ PostgreSQL / PostGIS
         "proximité autour du tracé via `ST_DWithin`."
     )
     st.write(
-        "Abdillahi Aden a porté l'intégration SIG, la base PostGIS, les traitements "
-        "géospatiaux, l'interface Streamlit et les connexions API. Karim Douar a contribué "
-        "à la conception fonctionnelle, aux données et aux validations projet."
+        "Abdillahi Aden a conçu et développé CycloTrip de bout en bout : intégration "
+        "des données d'adresses, modélisation PostgreSQL/PostGIS, requêtes spatiales, "
+        "connexion aux API d'itinéraire et de météo, interface Streamlit, cartographie "
+        "interactive et sécurisation du parcours utilisateur."
     )
 
     st.subheader("Liens")
