@@ -6,3 +6,6 @@ archive_2/
 carte/
 communes/
 progress.log
+__pycache__/
+*.pyc
+.pytest_cache/
