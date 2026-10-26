@@ -4,9 +4,9 @@ Application SIG en Python et Streamlit associant recherche d’adresses, calcul 
 
 [Application en ligne](https://cyclotrip-france.streamlit.app/) · [Dépôt GitHub](https://github.com/abdillahi-aden/projet-cyclotrip)
 
-## Contexte et objectif
+## Présentation
 
-CycloTrip a été réalisé dans le cadre de la formation Data Engineer de DataScientest. Le projet relie ingestion de données, stockage spatial PostgreSQL/PostGIS et interface de préparation de parcours cyclables. Le dépôt documente une réalisation de formation présentée dans le portfolio d’Abdillahi Aden.
+CycloTrip fait partie du portfolio SIG d’Abdillahi Aden. L’application relie ingestion de données, stockage spatial PostgreSQL/PostGIS et interface de préparation de parcours cyclables.
 
 ## Fonctionnalités présentes dans le code
 
